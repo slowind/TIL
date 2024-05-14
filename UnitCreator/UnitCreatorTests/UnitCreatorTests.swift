@@ -21,14 +21,21 @@ final class UnitCreatorTests: XCTestCase {
     func testBarrackStack() throws {
         
         let barrack = Barrack() 
-        barrack.createUnit()
+        let _ = barrack.createMarine()
         XCTAssertEqual(barrack.unitStack.count, 1)
-        barrack.createUnit()
+        let _ = barrack.createMarine()
         XCTAssertEqual(barrack.unitStack.count, 2)
         
-        barrack.cancelUnit()
+        let _ = barrack.cancelUnit()
         XCTAssertEqual(barrack.unitStack.count, 1)
+    }
+    
+    func testCreateMarine() throws {
         
+        let barrack = Barrack()
+        
+        let marine = barrack.createMarine()
+        XCTAssertEqual(marine.HP, 45)        
     }
 
 }

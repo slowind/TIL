@@ -12,14 +12,17 @@ class Barrack: BarrackType {
     var movable: Bool = true
     var moveSpeed: Int = 1
     var unitStack: Deque<Unit> = Deque()
-        
-    func createMedic() {
-        
+
+    let unitFactory = CreatorUnit()
+    
+    func createMarine() -> Unit {
+        let marine = createUnit(unit: unitFactory.createMarine())
+        return marine
     }
     
-    func createUnit() {
-        let creatorUnit = CreatorUnit()
-        unitStack.append(creatorUnit.createMarine())
+    private func createUnit(unit: Unit) -> Unit {
+        unitStack.append(unit)
+        return unit
     }
     
     func cancelUnit() {
@@ -32,7 +35,7 @@ class Barrack: BarrackType {
 }
 
 protocol UnitType {
-    
+    var HP: Int {get set}
 }
 
 
@@ -44,16 +47,16 @@ class CreatorUnit {
 }
 
 //abs
-class Unit: UnitType {
+protocol Unit: UnitType {
     
 }
 
 
 //concret
 class Marine: Unit {
-    
+    var HP: Int = 45
 }
 
 class Medic: Unit {
-    
+    var HP: Int = 60
 }

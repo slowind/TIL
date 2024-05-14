@@ -25,7 +25,9 @@ class Barrack: BarrackType {
         
     }
     
-    
+    func move() {
+        
+    }
 }
 
 

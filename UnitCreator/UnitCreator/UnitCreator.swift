@@ -11,12 +11,14 @@ protocol Building {
     
 }
 
-protocol UnitCreatorType: Building {
+protocol TerranBuildingType: Building {
     
 }
 
-protocol BarrackType: UnitCreatorType {
-    
+protocol BarrackType: TerranBuildingType {
+
 }
+
+
 
 

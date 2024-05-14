@@ -31,3 +31,4 @@ protocol BarrackType: TerranBuildingType {
 
 
 
+

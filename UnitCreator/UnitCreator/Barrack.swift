@@ -20,6 +20,11 @@ class Barrack: BarrackType {
         return marine
     }
     
+    func createMdeic() -> Unit {
+        let medic = createUnit(unit: unitFactory.createMedic())
+        return medic
+    }
+    
     private func createUnit(unit: Unit) -> Unit {
         unitStack.append(unit)
         return unit
@@ -43,6 +48,10 @@ protocol UnitType {
 class CreatorUnit {
     func createMarine() -> Unit {
         return Marine()
+    }
+    
+    func createMedic() -> Unit {
+        return Medic()
     }
 }
 

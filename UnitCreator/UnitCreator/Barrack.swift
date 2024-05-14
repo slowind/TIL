@@ -7,8 +7,25 @@
 
 import Foundation
 
-
-
-class Barrack {
+class Barrack: BarrackType {
+    
+    func createUnit(){
+        
+    }
+    
+    func cancelCreateUnit() {
+        
+    }
+    
+    func createMarine() {
+        
+    }
+    
+    func createMedic() {
+        
+    }
+    
     
 }
+
+

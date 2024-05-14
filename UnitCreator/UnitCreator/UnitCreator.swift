@@ -7,11 +7,19 @@
 
 import Foundation
 
-protocol Building {
+protocol BuildingType {
     
 }
 
-protocol TerranBuildingType: Building {
+protocol ZergBuildingType: BuildingType {
+    
+}
+
+protocol ProtosBuildingType: BuildingType {
+    
+}
+
+protocol TerranBuildingType: BuildingType {
     var movable: Bool {get set}
     var moveSpeed: Int {get set}
 }

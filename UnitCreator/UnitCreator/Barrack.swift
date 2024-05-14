@@ -8,7 +8,9 @@
 import Foundation
 
 class Barrack: BarrackType {
-    
+    var movable: Bool = true
+    var moveSpeed: Int = 1
+        
     func createUnit(){
         
     }

@@ -12,7 +12,8 @@ protocol Building {
 }
 
 protocol TerranBuildingType: Building {
-    
+    var movable: Bool {get set}
+    var moveSpeed: Int {get set}
 }
 
 protocol BarrackType: TerranBuildingType {

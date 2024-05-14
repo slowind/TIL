@@ -7,8 +7,29 @@
 
 import Foundation
 
-
-
-class Barrack {
+class Barrack: BarrackType {
+    var movable: Bool = true
+    var moveSpeed: Int = 1
+        
+    func createUnit(){
+        
+    }
     
+    func cancelCreateUnit() {
+        
+    }
+    
+    func createMarine() {
+        
+    }
+    
+    func createMedic() {
+        
+    }
+    
+    func move() {
+        
+    }
 }
+
+

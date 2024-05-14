@@ -14,6 +14,7 @@
 		C212C21F2BF2117F004C8FC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C212C21E2BF2117F004C8FC0 /* Assets.xcassets */; };
 		C212C2222BF2117F004C8FC0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C212C2212BF2117F004C8FC0 /* Base */; };
 		C212C22A2BF212E2004C8FC0 /* Barrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212C2292BF212E2004C8FC0 /* Barrack.swift */; };
+		C212C22C2BF2E98E004C8FC0 /* UnitCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212C22B2BF2E98E004C8FC0 /* UnitCreator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C212C2212BF2117F004C8FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C212C2232BF2117F004C8FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C212C2292BF212E2004C8FC0 /* Barrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barrack.swift; sourceTree = "<group>"; };
+		C212C22B2BF2E98E004C8FC0 /* UnitCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitCreator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				C212C2172BF2117D004C8FC0 /* SceneDelegate.swift */,
 				C212C2192BF2117D004C8FC0 /* ViewController.swift */,
 				C212C2292BF212E2004C8FC0 /* Barrack.swift */,
+				C212C22B2BF2E98E004C8FC0 /* UnitCreator.swift */,
 				C212C21B2BF2117D004C8FC0 /* Main.storyboard */,
 				C212C21E2BF2117F004C8FC0 /* Assets.xcassets */,
 				C212C2202BF2117F004C8FC0 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C212C21A2BF2117D004C8FC0 /* ViewController.swift in Sources */,
+				C212C22C2BF2E98E004C8FC0 /* UnitCreator.swift in Sources */,
 				C212C2162BF2117D004C8FC0 /* AppDelegate.swift in Sources */,
 				C212C22A2BF212E2004C8FC0 /* Barrack.swift in Sources */,
 				C212C2182BF2117D004C8FC0 /* SceneDelegate.swift in Sources */,

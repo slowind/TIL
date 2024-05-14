@@ -24,7 +24,6 @@ protocol TerranBuildingType: BuildingType {
     var moveSpeed: Int {get set}
 }
 
-
 protocol BarrackType: TerranBuildingType {
 
 }

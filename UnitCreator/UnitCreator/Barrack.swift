@@ -18,7 +18,8 @@ class Barrack: BarrackType {
     }
     
     func createUnit() {
-        unitStack.append(Unit())
+        let creatorUnit = CreatorUnit()
+        unitStack.append(creatorUnit.createMarine())
     }
     
     func cancelUnit() {
@@ -34,6 +35,25 @@ protocol UnitType {
     
 }
 
-struct Unit: UnitType {
+
+//factory
+class CreatorUnit {
+    func createMarine() -> Unit {
+        return Marine()
+    }
+}
+
+//abs
+class Unit: UnitType {
+    
+}
+
+
+//concret
+class Marine: Unit {
+    
+}
+
+class Medic: Unit {
     
 }

@@ -6,30 +6,34 @@
 //
 
 import Foundation
+import DequeModule
 
 class Barrack: BarrackType {
     var movable: Bool = true
     var moveSpeed: Int = 1
+    var unitStack: Deque<Unit> = Deque()
         
-    func createUnit(){
-        
-    }
-    
-    func cancelCreateUnit() {
-        
-    }
-    
-    func createMarine() {
-        
-    }
-    
     func createMedic() {
         
     }
     
+    func createUnit() {
+        unitStack.append(Unit())
+    }
+    
+    func cancelUnit() {
+        let _ = unitStack.popLast()
+    }
+
     func move() {
         
     }
 }
 
+protocol UnitType {
+    
+}
 
+struct Unit: UnitType {
+    
+}

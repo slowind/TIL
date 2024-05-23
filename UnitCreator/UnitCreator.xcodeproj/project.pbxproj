@@ -19,6 +19,7 @@
 		C212C23F2BF2EEBE004C8FC0 /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = C212C23E2BF2EEBE004C8FC0 /* DequeModule */; };
 		C212C2422BF33EC7004C8FC0 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212C2412BF33EC7004C8FC0 /* Unit.swift */; };
 		C24802342BF6EE47007E291C /* BarrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24802332BF6EE47007E291C /* BarrackView.swift */; };
+		C27D3ABF2BFEDC8F00FB2911 /* ZertUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27D3ABE2BFEDC8F00FB2911 /* ZertUnit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		C212C2362BF2EDAD004C8FC0 /* UnitCreatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitCreatorTests.swift; sourceTree = "<group>"; };
 		C212C2412BF33EC7004C8FC0 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
 		C24802332BF6EE47007E291C /* BarrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarrackView.swift; sourceTree = "<group>"; };
+		C27D3ABE2BFEDC8F00FB2911 /* ZertUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZertUnit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				C212C2192BF2117D004C8FC0 /* ViewController.swift */,
 				C212C2292BF212E2004C8FC0 /* Barrack.swift */,
 				C212C2412BF33EC7004C8FC0 /* Unit.swift */,
+				C27D3ABE2BFEDC8F00FB2911 /* ZertUnit.swift */,
 				C212C22B2BF2E98E004C8FC0 /* UnitCreator.swift */,
 				C212C21B2BF2117D004C8FC0 /* Main.storyboard */,
 				C212C21E2BF2117F004C8FC0 /* Assets.xcassets */,
@@ -232,6 +235,7 @@
 				C212C2422BF33EC7004C8FC0 /* Unit.swift in Sources */,
 				C212C22A2BF212E2004C8FC0 /* Barrack.swift in Sources */,
 				C212C2182BF2117D004C8FC0 /* SceneDelegate.swift in Sources */,
+				C27D3ABF2BFEDC8F00FB2911 /* ZertUnit.swift in Sources */,
 				C24802342BF6EE47007E291C /* BarrackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

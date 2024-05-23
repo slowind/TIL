@@ -88,6 +88,8 @@ protocol CreateStatus {
 }
 
 class Barrack: BarrackType {
+    var HP: Int = 200
+    
     var movable: Bool = true
     var moveSpeed: Int = 1
     var unitStack: Deque<TerranUnit> = Deque()

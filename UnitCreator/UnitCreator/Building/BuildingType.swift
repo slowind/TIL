@@ -12,7 +12,7 @@ protocol NewBuildingType {
 }
 
 protocol BuildingType {
-    
+    var HP: Int {get set}
 }
 
 

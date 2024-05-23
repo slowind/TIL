@@ -23,7 +23,7 @@
 		C27D3AB72BFED8B500FB2911 /* TerrenBuildingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27D3AB62BFED8B500FB2911 /* TerrenBuildingType.swift */; };
 		C27D3ABB2BFED8F200FB2911 /* BuildingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27D3AB92BFED8F200FB2911 /* BuildingType.swift */; };
 		C27D3ABD2BFEDA0000FB2911 /* TerranBuildingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27D3ABC2BFEDA0000FB2911 /* TerranBuildingType.swift */; };
-
+		C27D3AC12BFEDE7800FB2911 /* ProtosBuilding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27D3AC02BFEDE7800FB2911 /* ProtosBuilding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +55,7 @@
 		C27D3AB62BFED8B500FB2911 /* TerrenBuildingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerrenBuildingType.swift; sourceTree = "<group>"; };
 		C27D3AB92BFED8F200FB2911 /* BuildingType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingType.swift; sourceTree = "<group>"; };
 		C27D3ABC2BFEDA0000FB2911 /* TerranBuildingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerranBuildingType.swift; sourceTree = "<group>"; };
+		C27D3AC02BFEDE7800FB2911 /* ProtosBuilding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtosBuilding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +137,7 @@
 			children = (
 				C27D3AB92BFED8F200FB2911 /* BuildingType.swift */,
 				C27D3ABC2BFEDA0000FB2911 /* TerranBuildingType.swift */,
+				C27D3AC02BFEDE7800FB2911 /* ProtosBuilding.swift */,
 			);
 			path = Building;
 			sourceTree = "<group>";
@@ -254,6 +256,7 @@
 				C212C2162BF2117D004C8FC0 /* AppDelegate.swift in Sources */,
 				C212C2422BF33EC7004C8FC0 /* Unit.swift in Sources */,
 				C212C22A2BF212E2004C8FC0 /* Barrack.swift in Sources */,
+				C27D3AC12BFEDE7800FB2911 /* ProtosBuilding.swift in Sources */,
 				C212C2182BF2117D004C8FC0 /* SceneDelegate.swift in Sources */,
 				C27D3ABF2BFEDC8F00FB2911 /* ZertUnit.swift in Sources */,
 				C24802342BF6EE47007E291C /* BarrackView.swift in Sources */,

@@ -12,9 +12,6 @@ protocol ZergBuildingType: BuildingType {
     
 }
 
-protocol ProtosBuildingType: BuildingType {
-    
-}
 
 
 

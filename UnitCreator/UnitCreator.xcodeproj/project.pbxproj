@@ -19,7 +19,6 @@
 		C212C23F2BF2EEBE004C8FC0 /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = C212C23E2BF2EEBE004C8FC0 /* DequeModule */; };
 		C212C2422BF33EC7004C8FC0 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212C2412BF33EC7004C8FC0 /* Unit.swift */; };
 		C24802342BF6EE47007E291C /* BarrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24802332BF6EE47007E291C /* BarrackView.swift */; };
-		C27D3AB52BFED62900FB2911 /* BuildingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27D3AB42BFED62900FB2911 /* BuildingType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +46,6 @@
 		C212C2362BF2EDAD004C8FC0 /* UnitCreatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitCreatorTests.swift; sourceTree = "<group>"; };
 		C212C2412BF33EC7004C8FC0 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
 		C24802332BF6EE47007E291C /* BarrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarrackView.swift; sourceTree = "<group>"; };
-		C27D3AB42BFED62900FB2911 /* BuildingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +89,6 @@
 		C212C2142BF2117D004C8FC0 /* UnitCreator */ = {
 			isa = PBXGroup;
 			children = (
-				C27D3AB32BFED60F00FB2911 /* Building */,
 				C212C2152BF2117D004C8FC0 /* AppDelegate.swift */,
 				C212C2172BF2117D004C8FC0 /* SceneDelegate.swift */,
 				C212C2192BF2117D004C8FC0 /* ViewController.swift */,
@@ -120,14 +117,6 @@
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C27D3AB32BFED60F00FB2911 /* Building */ = {
-			isa = PBXGroup;
-			children = (
-				C27D3AB42BFED62900FB2911 /* BuildingType.swift */,
-			);
-			path = Building;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,7 +231,6 @@
 				C212C2162BF2117D004C8FC0 /* AppDelegate.swift in Sources */,
 				C212C2422BF33EC7004C8FC0 /* Unit.swift in Sources */,
 				C212C22A2BF212E2004C8FC0 /* Barrack.swift in Sources */,
-				C27D3AB52BFED62900FB2911 /* BuildingType.swift in Sources */,
 				C212C2182BF2117D004C8FC0 /* SceneDelegate.swift in Sources */,
 				C24802342BF6EE47007E291C /* BarrackView.swift in Sources */,
 			);

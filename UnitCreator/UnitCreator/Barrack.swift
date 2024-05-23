@@ -89,6 +89,7 @@ protocol CreateStatus {
 
 class Barrack: BarrackType {
     var HP: Int = 200
+    var buildingTime: Int = 100
     
     var movable: Bool = true
     var moveSpeed: Int = 1

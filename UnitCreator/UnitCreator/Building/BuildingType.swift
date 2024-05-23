@@ -13,6 +13,7 @@ protocol NewBuildingType {
 
 protocol BuildingType {
     var HP: Int {get set}
+    var buildingTime: Int {get set}
 }
 
 

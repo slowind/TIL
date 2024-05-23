@@ -20,6 +20,10 @@
 		C212C2422BF33EC7004C8FC0 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212C2412BF33EC7004C8FC0 /* Unit.swift */; };
 		C24802342BF6EE47007E291C /* BarrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24802332BF6EE47007E291C /* BarrackView.swift */; };
 		C27D3ABF2BFEDC8F00FB2911 /* ZertUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27D3ABE2BFEDC8F00FB2911 /* ZertUnit.swift */; };
+		C27D3AB72BFED8B500FB2911 /* TerrenBuildingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27D3AB62BFED8B500FB2911 /* TerrenBuildingType.swift */; };
+		C27D3ABB2BFED8F200FB2911 /* BuildingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27D3AB92BFED8F200FB2911 /* BuildingType.swift */; };
+		C27D3ABD2BFEDA0000FB2911 /* TerranBuildingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27D3ABC2BFEDA0000FB2911 /* TerranBuildingType.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,9 @@
 		C212C2412BF33EC7004C8FC0 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
 		C24802332BF6EE47007E291C /* BarrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarrackView.swift; sourceTree = "<group>"; };
 		C27D3ABE2BFEDC8F00FB2911 /* ZertUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZertUnit.swift; sourceTree = "<group>"; };
+		C27D3AB62BFED8B500FB2911 /* TerrenBuildingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerrenBuildingType.swift; sourceTree = "<group>"; };
+		C27D3AB92BFED8F200FB2911 /* BuildingType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingType.swift; sourceTree = "<group>"; };
+		C27D3ABC2BFEDA0000FB2911 /* TerranBuildingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerranBuildingType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +98,7 @@
 		C212C2142BF2117D004C8FC0 /* UnitCreator */ = {
 			isa = PBXGroup;
 			children = (
+				C27D3ABA2BFED8F200FB2911 /* Building */,
 				C212C2152BF2117D004C8FC0 /* AppDelegate.swift */,
 				C212C2172BF2117D004C8FC0 /* SceneDelegate.swift */,
 				C212C2192BF2117D004C8FC0 /* ViewController.swift */,
@@ -103,6 +111,7 @@
 				C212C2202BF2117F004C8FC0 /* LaunchScreen.storyboard */,
 				C212C2232BF2117F004C8FC0 /* Info.plist */,
 				C24802332BF6EE47007E291C /* BarrackView.swift */,
+				C27D3AB62BFED8B500FB2911 /* TerrenBuildingType.swift */,
 			);
 			path = UnitCreator;
 			sourceTree = "<group>";
@@ -120,6 +129,15 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C27D3ABA2BFED8F200FB2911 /* Building */ = {
+			isa = PBXGroup;
+			children = (
+				C27D3AB92BFED8F200FB2911 /* BuildingType.swift */,
+				C27D3ABC2BFEDA0000FB2911 /* TerranBuildingType.swift */,
+			);
+			path = Building;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +247,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C27D3ABB2BFED8F200FB2911 /* BuildingType.swift in Sources */,
 				C212C21A2BF2117D004C8FC0 /* ViewController.swift in Sources */,
+				C27D3AB72BFED8B500FB2911 /* TerrenBuildingType.swift in Sources */,
 				C212C22C2BF2E98E004C8FC0 /* UnitCreator.swift in Sources */,
 				C212C2162BF2117D004C8FC0 /* AppDelegate.swift in Sources */,
 				C212C2422BF33EC7004C8FC0 /* Unit.swift in Sources */,
@@ -237,6 +257,7 @@
 				C212C2182BF2117D004C8FC0 /* SceneDelegate.swift in Sources */,
 				C27D3ABF2BFEDC8F00FB2911 /* ZertUnit.swift in Sources */,
 				C24802342BF6EE47007E291C /* BarrackView.swift in Sources */,
+				C27D3ABD2BFEDA0000FB2911 /* TerranBuildingType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

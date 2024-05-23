@@ -44,13 +44,13 @@ class CreateStaus {
     
     func status() {
         switch createStatus {
-            case .wait:
+            case .waitRelease:
                 print("status none")
-            case .startCreat:
+            case .startCreate:
                 timer?.startTimer()
             case .creating:
                 print("status creating")
-            case .doneCreat:
+            case .doneCreate:
                 print("status done")
             default:
                 print("default")

@@ -10,3 +10,9 @@ import Foundation
 protocol NewBuildingType {
     
 }
+
+protocol BuildingType {
+    
+}
+
+
